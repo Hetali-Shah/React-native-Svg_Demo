@@ -81,35 +81,35 @@ export default class SvgExample extends React.Component {
             })
           }
           {/*{*/}
-            {/*data.line.map((lineValue, index) => {*/}
-              {/*return <Polyline*/}
-                {/*points="33,85,58 75,83 84,110 70"*/}
-                {/*fill="none"*/}
-                {/*stroke="rgb(122,178,233)"*/}
-                {/*strokeWidth="1"*/}
-              {/*/>*/}
-            {/*})*/}
+          {/*data.line.map((lineValue, index) => {*/}
+          {/*return <Polyline*/}
+          {/*points="33,85,58 75,83 84,110 70"*/}
+          {/*fill="none"*/}
+          {/*stroke="rgb(122,178,233)"*/}
+          {/*strokeWidth="1"*/}
+          {/*/>*/}
+          {/*})*/}
           {/*}*/}
           {/*<Line*/}
-            {/*x1={(25 * 1) + 7.5}*/}
-            {/*y1={100 - 20}*/}
-            {/*x2={(25 * 2) + 7.5}*/}
-            {/*y2={100 - 25}*/}
-            {/*stroke="rgb(122,178,233)"*/}
+          {/*x1={(25 * 1) + 7.5}*/}
+          {/*y1={100 - 20}*/}
+          {/*x2={(25 * 2) + 7.5}*/}
+          {/*y2={100 - 25}*/}
+          {/*stroke="rgb(122,178,233)"*/}
           {/*/>*/}
           {/*<Line*/}
-            {/*x1={(25 * 2) + 7.5}*/}
-            {/*y1={100 - 25}*/}
-            {/*x2={(25 * 3) + 7.5}*/}
-            {/*y2={100 - 19}*/}
-            {/*stroke="rgb(122,178,233)"*/}
+          {/*x1={(25 * 2) + 7.5}*/}
+          {/*y1={100 - 25}*/}
+          {/*x2={(25 * 3) + 7.5}*/}
+          {/*y2={100 - 19}*/}
+          {/*stroke="rgb(122,178,233)"*/}
           {/*/>*/}
           {/*<Line*/}
-            {/*x1={(25 * 3) + 7.5}*/}
-            {/*y1={100 - 19}*/}
-            {/*x2={(25 * 4) + 7.5}*/}
-            {/*y2={100 - 35}*/}
-            {/*stroke="rgb(122,178,233)"*/}
+          {/*x1={(25 * 3) + 7.5}*/}
+          {/*y1={100 - 19}*/}
+          {/*x2={(25 * 4) + 7.5}*/}
+          {/*y2={100 - 35}*/}
+          {/*stroke="rgb(122,178,233)"*/}
           {/*/>*/}
           {
             data.line.map((lineValue, index) => {
@@ -154,14 +154,14 @@ export default class SvgExample extends React.Component {
                 </Text>
               } else if (textVal <= 10){
                 return <Text
-                    key={index}
-                    x={((index + 1) * 25) + 6}
-                    y={(100 - textVal) + 4}
-                    fontSize={4}
-                    fill="black"
-                    // strokeWidth="4"
-                    // stroke="rgb(0,0,0)"
-                  >
+                  key={index}
+                  x={((index + 1) * 25) + 6}
+                  y={(100 - textVal) + 4}
+                  fontSize={4}
+                  fill="black"
+                  // strokeWidth="4"
+                  // stroke="rgb(0,0,0)"
+                >
                   {textVal}
                 </Text>
               }
